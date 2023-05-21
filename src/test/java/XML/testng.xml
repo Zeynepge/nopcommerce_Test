@@ -1,6 +1,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
 <test name="test1">
+    <parameter name="word" value="Adobe Photoshop CS4"></parameter>
     <classes>
         <class name="Tests.Test1"></class>
     </classes>
