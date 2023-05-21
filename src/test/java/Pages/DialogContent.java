@@ -51,4 +51,13 @@ public class DialogContent {
     @FindBy(css="[class='result']")
     public WebElement success;
 
+    @FindBy(css = "[class='button-1 login-button']")
+    public WebElement logIn2;
+
+    @FindBy(css = "[class='message-error validation-summary-errors']")
+    public WebElement errorMsg;
+
+
+
+
 }

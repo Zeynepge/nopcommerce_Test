@@ -15,5 +15,11 @@ public class HeaderNavi {
     @FindBy(css = "[class='ico-register']")
     public WebElement register;
 
+    @FindBy(linkText = "Log in")
+    public WebElement logIn;
+
+    @FindBy(xpath = "//*[text()='Log out']")
+    public WebElement logOut;
+
 
 }
