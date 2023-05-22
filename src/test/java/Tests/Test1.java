@@ -205,7 +205,7 @@ public class Test1 extends BaseDriver {
 
     }
 
-    @Test(dependsOnMethods = "OrderComputerTest",priority = 7)
+    @Test(dependsOnMethods = "OrderComputerTest",priority = 8)
     @Parameters("word")
     void SearchTest(String search_word)
     {

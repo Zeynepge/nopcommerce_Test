@@ -49,7 +49,7 @@ public class BaseDriver {
 
         try {
             Thread.sleep(3000);
-      //      driver.quit();
+            driver.quit();
         }catch (InterruptedException e){
             throw new RuntimeException(e);
         }
